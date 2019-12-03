@@ -45,11 +45,14 @@ public class dayTwo {
         int i;
         int sum =0;
 
+        intcode[1] = 12;
+        intcode[2] = 2;
+
         for(i=0; i<intcode.length; i+=4){
-            //if(intcode[i] == 99){
+            if(intcode[i] == 99){
                 //break;
-            //}
-            if (intcode[i] == 1) {
+            }
+            else if (intcode[i] == 1) {
                 intcode[i + 3] = intcode[i + 1] + intcode[i + 2];
             }
             else if(intcode[i] == 2){
