@@ -35,7 +35,6 @@ public class dayOne {
         System.out.printf("Total altogether: %f \n ", total);
         //total altogether = the values inputted /3 - 2. (equation applied once to each input then totalled)
 
-
         //sum = total + totalFuel;
         //System.out.printf("SUM: %f", sum);
     }

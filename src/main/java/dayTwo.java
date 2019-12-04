@@ -2,6 +2,8 @@
 /*
 Day 2: 1202 Program Alarm
 
+-- PART 1 --
+
  */
 public class dayTwo {
     public static void main(String[] args){
